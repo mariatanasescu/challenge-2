@@ -1,45 +1,35 @@
-<!DOCTYPE html>
-<html lang="en-gb">
+body, html {
+  height: 100%;
+  font-family: monospace;
+}
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
-</head>
+header {
+  display: flex;
+  justify-content: space-between;
+}
 
-<body>
-  <!-- main logo / nav -->
-  <header>
-    <h1>Lernantino</h1>
-    <nav>
-    </nav>
-  </header>
+.nav-grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-  <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>Cool subtitle here!</h2>
-    </div>
-  </section>
+nav > a {
+  padding: 5px 10px;
+}
 
-  <main class="page-wrapper">
-    <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
-    </section>
+.hero-banner {
+  background-image: url("../images/hero-banner.jpeg");
+  background-repeat: no-repeat;
+  height: 50%;
+  background-position: center;
+  background-size: cover;
+  
+}
 
-    <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <h2>Work</h2>
-    </section>
-
-    <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
-    </section>
-  </main>
-</body>
-
-</html>
+.hero-text {
+  text-align: center;
+  color: white;
+  position:relative;
+  top: 50%
+}

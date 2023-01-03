@@ -86,8 +86,19 @@ header > nav > a {
 }
 
 .bootstrap-portfolio {
+  display: block;
+  height: 200px;
+  /*grid-template-areas: bootstrap;*/
+}
+  
+  .bootstrap-section {
+  /*grid-area: bootstrap;*/
+  background-size: cover;
+  }
+
+
+.other4 {
   display: grid;
-  grid-area: bootstrap;
 
 }
 

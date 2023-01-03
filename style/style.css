@@ -1,7 +1,10 @@
 body, html {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
   height: 100%;
   font-family: monospace;
-  margin: 0; /* Otherwise there is an automatic margin between the top of the window and the navbar */
+  margin-top: 0; /* Otherwise there is an automatic margin between the top of the window and the navbar */
 }
 
 /* ---Nav Bar--- */
@@ -60,3 +63,37 @@ header > nav > a {
   color: skyblue;
 }
 
+/* ---Page Wrapper--- */
+.page-section {
+  display: grid;
+}
+/* --About Me-- */
+.section-title {
+  display: flex;
+  justify-content: end;
+  padding-right: 4em;
+}
+
+#about {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+/* --Portfolio-- */
+#work {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+.bootstrap-portfolio {
+  display: grid;
+  grid-area: bootstrap;
+
+}
+
+/* --Contact-- */
+#contact {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+/* Check if the links at the top link with the bottom!*/
